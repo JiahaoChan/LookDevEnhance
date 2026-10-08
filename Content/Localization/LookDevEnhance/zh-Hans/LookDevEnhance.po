@@ -1,0 +1,1219 @@
+# LookDevEnhance Chinese (Simplified) translation.
+# Fill out your copyright notice in the Description page of Project Settings.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: LookDevEnhance\n"
+"POT-Creation-Date: 2026-10-09 10:21\n"
+"PO-Revision-Date: 2026-10-09 10:21\n"
+"Language-Team: \n"
+"Language: zh-Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Key:	AssetsPreviewActor
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor [Class DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor [Class DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor"
+msgid "Assets Preview Actor"
+msgstr "资产预览环境 Actor"
+
+#. Key:	AssetsPreviewActor
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor [Class ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor [Class ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor"
+msgid "资产预览环境 Actor\n\n由参考插件（LookDev）中的蓝图 AssetsPreview_BP 转换为 C++ 实现，作为 LookDev\n场景中的资产展示环境：天穹背景、天光、三档方向光、后处理（含 PBR Checker 混合）\n以及校准参照物（色卡、人台、平面、圆柱）。\n组件与参数的默认值通过构造函数初始化；光照氛围、曝光、背景尺寸等均可在编辑器中调整，\n调整后在 OnConstruction 中实时生效。\n\n注意：本类位于 Editor 类型模块中，仅在编辑器内可用，不会进入打包产物。"
+msgstr ""
+
+#. Key:	Asset Reference
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:BackDropMaterial [ObjectProperty Category meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:BackDropMaterial [ObjectProperty Category meta-data]
+msgctxt "UObjectCategory,Asset Reference"
+msgid "Asset Reference"
+msgstr "资产引用"
+
+#. Key:	AssetsPreviewActor:BackDropMaterial
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:BackDropMaterial [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:BackDropMaterial [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:BackDropMaterial"
+msgid "Backdrop Material"
+msgstr "背景材质"
+
+#. Key:	AssetsPreviewActor:BackDropMaterial
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:BackDropMaterial [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:BackDropMaterial [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:BackDropMaterial"
+msgid "Source material of the backdrop dynamic material; assigned by the Blueprint subclass"
+msgstr "背景动态材质的源材质，由蓝图子类指定"
+
+#. Key:	AssetsPreviewActor:BackgroundValueCompensation
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:BackgroundValueCompensation [FloatProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:BackgroundValueCompensation [FloatProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:BackgroundValueCompensation"
+msgid "Background Value Compensation"
+msgstr "背景亮度补偿"
+
+#. Key:	AssetsPreviewActor:BackgroundValueCompensation
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:BackgroundValueCompensation [FloatProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:BackgroundValueCompensation [FloatProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:BackgroundValueCompensation"
+msgid "Background brightness compensation exponent; the actual backdrop material value is Far Value * 2^compensation"
+msgstr "背景亮度补偿指数，背景材质实际参数为 Far Value * 2^补偿值"
+
+#. Key:	AssetsPreviewActor:BaseRotationHigh
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:BaseRotationHigh [StructProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:BaseRotationHigh [StructProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:BaseRotationHigh"
+msgid "Base Rotation High"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:BaseRotationLow
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:BaseRotationLow [StructProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:BaseRotationLow [StructProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:BaseRotationLow"
+msgid "Base Rotation Low"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:BaseRotationLow
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:BaseRotationLow [StructProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:BaseRotationLow [StructProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:BaseRotationLow"
+msgid "三盏方向光的基准世界旋转（首次 Update 时捕获，此后的旋转都基于它叠加偏移）"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:BaseRotationMid
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:BaseRotationMid [StructProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:BaseRotationMid [StructProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:BaseRotationMid"
+msgid "Base Rotation Mid"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:bCastGroundShadow
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bCastGroundShadow [BoolProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bCastGroundShadow [BoolProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:bCastGroundShadow"
+msgid "Cast Ground Shadow"
+msgstr "贴地阴影"
+
+#. Key:	AssetsPreviewActor:bCastGroundShadow
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bCastGroundShadow [BoolProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bCastGroundShadow [BoolProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:bCastGroundShadow"
+msgid "Whether the backdrop touches the ground: grounded sets MaskRadius to 10000, otherwise 0.1 with PDO parameters; forced non-grounded while PBR Checker is enabled"
+msgstr "背景是否贴地：贴地时 MaskRadius 取 10000，否则取 0.1 并设置 PDO 参数；PBR Checker 开启时强制视为非贴地"
+
+#. Key:	PBR Checker
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bEnableChecker [BoolProperty Category meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bEnableChecker [BoolProperty Category meta-data]
+msgctxt "UObjectCategory,PBR Checker"
+msgid "PBR Checker"
+msgstr "PBR 校验"
+
+#. Key:	AssetsPreviewActor:bEnableChecker
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bEnableChecker [BoolProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bEnableChecker [BoolProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:bEnableChecker"
+msgid "Enable Checker"
+msgstr "启用 PBR 校验"
+
+#. Key:	AssetsPreviewActor:bEnableChecker
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bEnableChecker [BoolProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bEnableChecker [BoolProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:bEnableChecker"
+msgid "Enable the PBR Checker (green = BaseColor too bright / blue = too dark / red = Metallic BaseColor too dark)"
+msgstr "启用 PBR Checker（绿=BaseColor 过亮 / 蓝=过暗 / 红=Metallic BaseColor 过暗）"
+
+#. Key:	AssetsPreviewActor:bEnableTransmission
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bEnableTransmission [BoolProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bEnableTransmission [BoolProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:bEnableTransmission"
+msgid "Enable Transmission"
+msgstr "启用透射"
+
+#. Key:	AssetsPreviewActor:bEnableTransmission
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bEnableTransmission [BoolProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bEnableTransmission [BoolProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:bEnableTransmission"
+msgid "Enable transmission on the three directional lights"
+msgstr "为三盏方向光启用透射（Transmission）"
+
+#. Key:	AssetsPreviewActor:bLightingBaseCaptured
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bLightingBaseCaptured [BoolProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bLightingBaseCaptured [BoolProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:bLightingBaseCaptured"
+msgid "Lighting Base Captured"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:bLightingBaseCaptured
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bLightingBaseCaptured [BoolProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bLightingBaseCaptured [BoolProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:bLightingBaseCaptured"
+msgid "是否已捕获三盏方向光与天光的基准姿态（序列化保存，避免地图重开后把已偏移的姿态误作基准再次叠加）"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:bRaytracingShadow
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bRaytracingShadow [BoolProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bRaytracingShadow [BoolProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:bRaytracingShadow"
+msgid "Raytracing Shadow"
+msgstr "光线追踪阴影"
+
+#. Key:	AssetsPreviewActor:bRaytracingShadow
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bRaytracingShadow [BoolProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bRaytracingShadow [BoolProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:bRaytracingShadow"
+msgid "Enable ray-traced shadows (sets CastRaytracedShadow on the three directional lights)"
+msgstr "开启光线追踪阴影（直接设置三盏方向光组件的 CastRaytracedShadow 属性）"
+
+#. Key:	AssetsPreviewActor:bShowCalibrator
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bShowCalibrator [BoolProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bShowCalibrator [BoolProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:bShowCalibrator"
+msgid "Show Calibrator"
+msgstr "显示校准参照物"
+
+#. Key:	AssetsPreviewActor:bShowCalibrator
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bShowCalibrator [BoolProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bShowCalibrator [BoolProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:bShowCalibrator"
+msgid "Show the calibration props"
+msgstr "显示校准参照物"
+
+#. Key:	AssetsPreviewActor:bTurnLight
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bTurnLight [BoolProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bTurnLight [BoolProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:bTurnLight"
+msgid "Turn Light"
+msgstr "旋转灯光"
+
+#. Key:	AssetsPreviewActor:bTurnLight
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bTurnLight [BoolProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bTurnLight [BoolProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:bTurnLight"
+msgid "Rotate the lights continuously"
+msgstr "持续旋转灯光"
+
+#. Key:	AssetsPreviewActor:bUseHardWareRaytracing
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bUseHardWareRaytracing [BoolProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bUseHardWareRaytracing [BoolProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:bUseHardWareRaytracing"
+msgid "Use Hardware Raytracing"
+msgstr "使用硬件光线追踪"
+
+#. Key:	AssetsPreviewActor:bUseHardWareRaytracing
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:bUseHardWareRaytracing [BoolProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:bUseHardWareRaytracing [BoolProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:bUseHardWareRaytracing"
+msgid "Use hardware ray tracing (appended as the 0/1 argument of the Command console command)"
+msgstr "使用硬件光线追踪（作为 Command 控制台命令拼接的 0/1 参数）"
+
+#. Key:	AssetsPreviewActor:CharacterMesh
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:CharacterMesh [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:CharacterMesh [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:CharacterMesh"
+msgid "Character Mesh"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:CharacterMesh
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:CharacterMesh [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:CharacterMesh [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:CharacterMesh"
+msgid "角色参考网格组件"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:ColorCalibrator
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:ColorCalibrator [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:ColorCalibrator [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:ColorCalibrator"
+msgid "Color Calibrator"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:ColorCalibrator
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:ColorCalibrator [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:ColorCalibrator [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:ColorCalibrator"
+msgid "校色卡网格组件"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:Command
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Command [StrProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Command [StrProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:Command"
+msgid "Command"
+msgstr "控制台命令"
+
+#. Key:	AssetsPreviewActor:Command
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Command [StrProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Command [StrProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:Command"
+msgid "Hardware ray tracing console command prefix (trailing space included), executed combined with bUseHardWareRaytracing; the execution call in OnConstruction is currently commented out"
+msgstr "硬件光线追踪的控制台命令前缀（自带尾随空格），与 bUseHardWareRaytracing 拼接后执行；当前 OnConstruction 中的执行调用已注释停用"
+
+#. Key:	AssetsPreviewActor:Cubemap
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Cubemap [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Cubemap [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:Cubemap"
+msgid "Cubemap"
+msgstr "立方体贴图"
+
+#. Key:	AssetsPreviewActor:Cubemap
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Cubemap [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Cubemap [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:Cubemap"
+msgid "HDR cubemap sampled by the Skylight and projected onto the backdrop; assigned by the Blueprint subclass"
+msgstr "供 Skylight 取样并投射到背景的 HDR 立方体贴图，由蓝图子类接入使用"
+
+#. Key:	AssetsPreviewActor:Cylinder
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Cylinder [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Cylinder [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:Cylinder"
+msgid "Cylinder"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:Cylinder
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Cylinder [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Cylinder [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:Cylinder"
+msgid "校准用圆柱"
+msgstr ""
+
+#. Key:	Components
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:DefaultSceneRoot [ObjectProperty Category meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:DefaultSceneRoot [ObjectProperty Category meta-data]
+msgctxt "UObjectCategory,Components"
+msgid "Components"
+msgstr "组件"
+
+#. Key:	AssetsPreviewActor:DefaultSceneRoot
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:DefaultSceneRoot [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:DefaultSceneRoot [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:DefaultSceneRoot"
+msgid "Default Scene Root"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:DefaultSceneRoot
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:DefaultSceneRoot [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:DefaultSceneRoot [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:DefaultSceneRoot"
+msgid "根组件"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:DirectionalLight_High
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:DirectionalLight_High [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:DirectionalLight_High [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:DirectionalLight_High"
+msgid "Directional Light High"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:DirectionalLight_High
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:DirectionalLight_High [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:DirectionalLight_High [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:DirectionalLight_High"
+msgid "高对比度档位的方向光"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:DirectionalLight_Low
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:DirectionalLight_Low [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:DirectionalLight_Low [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:DirectionalLight_Low"
+msgid "Directional Light Low"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:DirectionalLight_Low
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:DirectionalLight_Low [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:DirectionalLight_Low [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:DirectionalLight_Low"
+msgid "低对比度档位的方向光"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:DirectionalLight_Mid
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:DirectionalLight_Mid [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:DirectionalLight_Mid [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:DirectionalLight_Mid"
+msgid "Directional Light Mid"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:DirectionalLight_Mid
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:DirectionalLight_Mid [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:DirectionalLight_Mid [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:DirectionalLight_Mid"
+msgid "中对比度档位的方向光"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:ExposureCompensation
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:ExposureCompensation [FloatProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:ExposureCompensation [FloatProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:ExposureCompensation"
+msgid "Exposure Compensation"
+msgstr "曝光补偿"
+
+#. Key:	AssetsPreviewActor:ExposureCompensation
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:ExposureCompensation [FloatProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:ExposureCompensation [FloatProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:ExposureCompensation"
+msgid "Exposure compensation written to the main post-process AutoExposureBias"
+msgstr "曝光补偿（写入主后处理的 AutoExposureBias）"
+
+#. Key:	Lighting
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:LightingScenarios [EnumProperty Category meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:LightingScenarios [EnumProperty Category meta-data]
+msgctxt "UObjectCategory,Lighting"
+msgid "Lighting"
+msgstr "灯光"
+
+#. Key:	AssetsPreviewActor:LightingScenarios
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:LightingScenarios [EnumProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:LightingScenarios [EnumProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:LightingScenarios"
+msgid "Lighting Scenarios"
+msgstr "灯光氛围档位"
+
+#. Key:	AssetsPreviewActor:LightingScenarios
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:LightingScenarios [EnumProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:LightingScenarios [EnumProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:LightingScenarios"
+msgid "Current lighting scenario preset"
+msgstr "当前灯光氛围档位"
+
+#. Key:	AssetsPreviewActor:MaxValueNoneMetal
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:MaxValueNoneMetal [FloatProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:MaxValueNoneMetal [FloatProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:MaxValueNoneMetal"
+msgid "Max Value None Metal"
+msgstr "非金属上限阈值"
+
+#. Key:	AssetsPreviewActor:MaxValueNoneMetal
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:MaxValueNoneMetal [FloatProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:MaxValueNoneMetal [FloatProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:MaxValueNoneMetal"
+msgid "Upper threshold of the PBR Checker non-metal validation"
+msgstr "PBR Checker 非金属校验的上限阈值"
+
+#. Key:	Background
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Mesh [ObjectProperty Category meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Mesh [ObjectProperty Category meta-data]
+msgctxt "UObjectCategory,Background"
+msgid "Background"
+msgstr "背景"
+
+#. Key:	AssetsPreviewActor:Mesh
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Mesh [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Mesh [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:Mesh"
+msgid "Mesh"
+msgstr "网格体"
+
+#. Key:	AssetsPreviewActor:Mesh
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Mesh [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Mesh [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:Mesh"
+msgid "Custom backdrop mesh replacing the Skydome mesh"
+msgstr "自定义背景网格，替换 Skydome 使用的网格体"
+
+#. Key:	AssetsPreviewActor:MinValueMetal
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:MinValueMetal [FloatProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:MinValueMetal [FloatProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:MinValueMetal"
+msgid "Min Value Metal"
+msgstr "金属下限阈值"
+
+#. Key:	AssetsPreviewActor:MinValueMetal
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:MinValueMetal [FloatProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:MinValueMetal [FloatProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:MinValueMetal"
+msgid "Lower threshold of the PBR Checker metal validation"
+msgstr "PBR Checker 金属校验的下限阈值"
+
+#. Key:	AssetsPreviewActor:MinValueNoneMetal
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:MinValueNoneMetal [FloatProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:MinValueNoneMetal [FloatProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:MinValueNoneMetal"
+msgid "Min Value None Metal"
+msgstr "非金属下限阈值"
+
+#. Key:	AssetsPreviewActor:MinValueNoneMetal
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:MinValueNoneMetal [FloatProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:MinValueNoneMetal [FloatProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:MinValueNoneMetal"
+msgid "Lower threshold of the PBR Checker non-metal validation"
+msgstr "PBR Checker 非金属校验的下限阈值"
+
+#. Key:	AssetsPreviewActor:PBRCheckerMaterial
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:PBRCheckerMaterial [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:PBRCheckerMaterial [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:PBRCheckerMaterial"
+msgid "PBR Checker Material"
+msgstr "PBR 校验材质"
+
+#. Key:	AssetsPreviewActor:PBRCheckerMaterial
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:PBRCheckerMaterial [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:PBRCheckerMaterial [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:PBRCheckerMaterial"
+msgid "Parent material of the PBR Checker dynamic material; assigned by the Blueprint subclass"
+msgstr "PBR Checker 动态材质的父材质，由蓝图子类指定"
+
+#. Key:	AssetsPreviewActor:Plane
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Plane [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Plane [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:Plane"
+msgid "Plane"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:Plane
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Plane [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Plane [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:Plane"
+msgid "校准用平面"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:PostProcess
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:PostProcess [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:PostProcess [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:PostProcess"
+msgid "Post Process"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:PostProcess
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:PostProcess [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:PostProcess [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:PostProcess"
+msgid "主后处理体积（曝光、对比度、暗角等）"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:PostProcess_PBRChecker
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:PostProcess_PBRChecker [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:PostProcess_PBRChecker [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:PostProcess_PBRChecker"
+msgid "Post Process PBRChecker"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:PostProcess_PBRChecker
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:PostProcess_PBRChecker [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:PostProcess_PBRChecker [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:PostProcess_PBRChecker"
+msgid "PBR Checker 专用的后处理体积，通过 WeightedBlendables 注入校验材质"
+msgstr ""
+
+#. Key:	Preview
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:PreviewRotationOffset [StructProperty Category meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:PreviewRotationOffset [StructProperty Category meta-data]
+msgctxt "UObjectCategory,Preview"
+msgid "Preview"
+msgstr "预览"
+
+#. Key:	AssetsPreviewActor:PreviewRotationOffset
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:PreviewRotationOffset [StructProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:PreviewRotationOffset [StructProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:PreviewRotationOffset"
+msgid "Preview Rotation Offset"
+msgstr "预览旋转偏移"
+
+#. Key:	AssetsPreviewActor:PreviewRotationOffset
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:PreviewRotationOffset [StructProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:PreviewRotationOffset [StructProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:PreviewRotationOffset"
+msgid "Rotation offset for preview assets whose front does not face the +X axis; applied to both the original preview actors and the multi-view copies"
+msgstr "用于校正正面不朝 +X 方向的预览资产的朝向偏移；原预览资产与多视图副本会同步应用"
+
+#. Key:	AssetsPreviewActor:Size
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Size [FloatProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Size [FloatProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:Size"
+msgid "Size"
+msgstr "尺寸"
+
+#. Key:	AssetsPreviewActor:Size
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Size [FloatProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Size [FloatProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:Size"
+msgid "Target size of the backdrop mesh in meters"
+msgstr "背景网格的目标尺寸（米）"
+
+#. Key:	AssetsPreviewActor:Skydome
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Skydome [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Skydome [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:Skydome"
+msgid "Skydome"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:Skydome
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Skydome [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Skydome [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:Skydome"
+msgid "天穹背景网格组件，运行时由 Mesh 属性指定网格并按 Size 缩放"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:Skylight
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Skylight [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Skylight [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:Skylight"
+msgid "Skylight"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:Skylight
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:Skylight [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:Skylight [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:Skylight"
+msgid "天光组件"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:SkylightBaseCubemapAngle
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:SkylightBaseCubemapAngle [FloatProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:SkylightBaseCubemapAngle [FloatProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:SkylightBaseCubemapAngle"
+msgid "Skylight Base Cubemap Angle"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:SkylightBaseCubemapAngle
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:SkylightBaseCubemapAngle [FloatProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:SkylightBaseCubemapAngle [FloatProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:SkylightBaseCubemapAngle"
+msgid "天光的基准 Cubemap 角度"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:SpawnLocation
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:SpawnLocation [ObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:SpawnLocation [ObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:SpawnLocation"
+msgid "Spawn Location"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:SpawnLocation
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:SpawnLocation [ObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:SpawnLocation [ObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:SpawnLocation"
+msgid "校准参照物的生成位置标记"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:TurnLighting
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:TurnLighting [FloatProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:TurnLighting [FloatProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:TurnLighting"
+msgid "Turn Lighting"
+msgstr "灯光旋转角度"
+
+#. Key:	AssetsPreviewActor:TurnLighting
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:TurnLighting [FloatProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:TurnLighting [FloatProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:TurnLighting"
+msgid "Per-frame rotation increment of the lights"
+msgstr "灯光每帧旋转的角度增量"
+
+#. Key:	AssetsPreviewActor:TurntableAngle
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:TurntableAngle [FloatProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:TurntableAngle [FloatProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,AssetsPreviewActor:TurntableAngle"
+msgid "Turntable Angle"
+msgstr ""
+
+#. Key:	AssetsPreviewActor:TurntableAngle
+#. SourceLocation:	/Script/LookDevEnhance.AssetsPreviewActor:TurntableAngle [FloatProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.AssetsPreviewActor:TurntableAngle [FloatProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,AssetsPreviewActor:TurntableAngle"
+msgid "转台模式下的累计旋转角度"
+msgstr ""
+
+#. Key:	ELightingScenarial.ELightingScenarial_MAX
+#. SourceLocation:	/Script/LookDevEnhance.ELightingScenarial:ELightingScenarial_MAX [EnumEntry DisplayName meta-data]
+#: /Script/LookDevEnhance.ELightingScenarial:ELightingScenarial_MAX [EnumEntry DisplayName meta-data]
+msgctxt "UObjectDisplayNames,ELightingScenarial.ELightingScenarial_MAX"
+msgid "ELighting Scenarial MAX"
+msgstr ""
+
+#. Key:	ELightingScenarial.HighContrast
+#. SourceLocation:	/Script/LookDevEnhance.ELightingScenarial:HighContrast [EnumEntry DisplayName meta-data]
+#: /Script/LookDevEnhance.ELightingScenarial:HighContrast [EnumEntry DisplayName meta-data]
+msgctxt "UObjectDisplayNames,ELightingScenarial.HighContrast"
+msgid "High Contrast"
+msgstr "高对比度"
+
+#. Key:	ELightingScenarial.LowContrast
+#. SourceLocation:	/Script/LookDevEnhance.ELightingScenarial:LowContrast [EnumEntry DisplayName meta-data]
+#: /Script/LookDevEnhance.ELightingScenarial:LowContrast [EnumEntry DisplayName meta-data]
+msgctxt "UObjectDisplayNames,ELightingScenarial.LowContrast"
+msgid "Low Contrast"
+msgstr "低对比度"
+
+#. Key:	ELightingScenarial.MidContrast
+#. SourceLocation:	/Script/LookDevEnhance.ELightingScenarial:MidContrast [EnumEntry DisplayName meta-data]
+#: /Script/LookDevEnhance.ELightingScenarial:MidContrast [EnumEntry DisplayName meta-data]
+msgctxt "UObjectDisplayNames,ELightingScenarial.MidContrast"
+msgid "Mid Contrast"
+msgstr "中对比度"
+
+#. Key:	LookDevAssetEditor
+#. SourceLocation:	/Script/LookDevEnhance.LookDevAssetEditor [Class DisplayName meta-data]
+#: /Script/LookDevEnhance.LookDevAssetEditor [Class DisplayName meta-data]
+msgctxt "UObjectDisplayNames,LookDevAssetEditor"
+msgid "Look Dev Asset Editor"
+msgstr ""
+
+#. Key:	LookDevAssetEditor
+#. SourceLocation:	/Script/LookDevEnhance.LookDevAssetEditor [Class ToolTip meta-data]
+#: /Script/LookDevEnhance.LookDevAssetEditor [Class ToolTip meta-data]
+msgctxt "UObjectToolTips,LookDevAssetEditor"
+msgid "LookDev 资产编辑器实例\n\n基于 UAssetEditor 的编辑器对象，内部创建 FLookDevAssetToolkit 作为界面与预览载体，\n由 UAssetEditorSubsystem 跟踪管理。一个编辑器窗口在配置好的 LookDev 场景中\n预览一个或多个资产；同一资产允许同时出现在多个窗口中。\n统一通过静态函数 OpenLookDevEditorForAssets 打开，内部按资产集合去重：\n已有窗口展示的资产集合与请求完全一致时聚焦该窗口，否则新开窗口。"
+msgstr ""
+
+#. Key:	LookDevAssetEditor:ObjectsToEdit
+#. SourceLocation:	/Script/LookDevEnhance.LookDevAssetEditor:ObjectsToEdit [ArrayProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.LookDevAssetEditor:ObjectsToEdit [ArrayProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,LookDevAssetEditor:ObjectsToEdit"
+msgid "Objects to Edit"
+msgstr ""
+
+#. Key:	LookDevAssetEditor:ObjectsToEdit
+#. SourceLocation:	/Script/LookDevEnhance.LookDevAssetEditor:ObjectsToEdit [ArrayProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.LookDevAssetEditor:ObjectsToEdit [ArrayProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,LookDevAssetEditor:ObjectsToEdit"
+msgid "本编辑器预览的全部资产"
+msgstr ""
+
+#. Key:	LookDevEnhanceSettings
+#. SourceLocation:	/Script/LookDevEnhance.LookDevEnhanceSettings [Class DisplayName meta-data]
+#: /Script/LookDevEnhance.LookDevEnhanceSettings [Class DisplayName meta-data]
+msgctxt "UObjectDisplayNames,LookDevEnhanceSettings"
+msgid "LookDev Enhance"
+msgstr "LookDev 增强"
+
+#. Key:	LookDevEnhanceSettings
+#. SourceLocation:	/Script/LookDevEnhance.LookDevEnhanceSettings [Class ToolTip meta-data]
+#: /Script/LookDevEnhance.LookDevEnhanceSettings [Class ToolTip meta-data]
+msgctxt "UObjectToolTips,LookDevEnhanceSettings"
+msgid "LookDev 资产编辑器的配置面板。\n在这里指定预览环境使用的 LookDev 场景、允许在 LookDev 编辑器中打开的资产类型，\n以及预览材质时使用的网格体；修改后自动保存并即时生效，无需重启编辑器。"
+msgstr ""
+
+#. Key:	LookDev
+#. SourceLocation:	/Script/LookDevEnhance.LookDevEnhanceSettings:LookDevScene [SoftObjectProperty Category meta-data]
+#: /Script/LookDevEnhance.LookDevEnhanceSettings:LookDevScene [SoftObjectProperty Category meta-data]
+msgctxt "UObjectCategory,LookDev"
+msgid "LookDev"
+msgstr ""
+
+#. Key:	LookDevEnhanceSettings:LookDevScene
+#. SourceLocation:	/Script/LookDevEnhance.LookDevEnhanceSettings:LookDevScene [SoftObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.LookDevEnhanceSettings:LookDevScene [SoftObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,LookDevEnhanceSettings:LookDevScene"
+msgid "Look Dev Scene"
+msgstr "LookDev 场景"
+
+#. Key:	LookDevEnhanceSettings:LookDevScene
+#. SourceLocation:	/Script/LookDevEnhance.LookDevEnhanceSettings:LookDevScene [SoftObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.LookDevEnhanceSettings:LookDevScene [SoftObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,LookDevEnhanceSettings:LookDevScene"
+msgid "作为 LookDev 编辑器预览环境的场景（地图资产）"
+msgstr ""
+
+#. Key:	LookDevEnhanceSettings:MaterialPreviewMesh
+#. SourceLocation:	/Script/LookDevEnhance.LookDevEnhanceSettings:MaterialPreviewMesh [SoftObjectProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.LookDevEnhanceSettings:MaterialPreviewMesh [SoftObjectProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,LookDevEnhanceSettings:MaterialPreviewMesh"
+msgid "Material Preview Mesh"
+msgstr "材质预览网格"
+
+#. Key:	LookDevEnhanceSettings:MaterialPreviewMesh
+#. SourceLocation:	/Script/LookDevEnhance.LookDevEnhanceSettings:MaterialPreviewMesh [SoftObjectProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.LookDevEnhanceSettings:MaterialPreviewMesh [SoftObjectProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,LookDevEnhanceSettings:MaterialPreviewMesh"
+msgid "在 LookDev 编辑器中预览材质 / 材质实例时使用的网格体"
+msgstr ""
+
+#. Key:	LookDevEnhanceSettings:SupportedAssetClasses
+#. SourceLocation:	/Script/LookDevEnhance.LookDevEnhanceSettings:SupportedAssetClasses [ArrayProperty DisplayName meta-data]
+#: /Script/LookDevEnhance.LookDevEnhanceSettings:SupportedAssetClasses [ArrayProperty DisplayName meta-data]
+msgctxt "UObjectDisplayNames,LookDevEnhanceSettings:SupportedAssetClasses"
+msgid "Supported Asset Classes"
+msgstr "支持的资产类型"
+
+#. Key:	LookDevEnhanceSettings:SupportedAssetClasses
+#. SourceLocation:	/Script/LookDevEnhance.LookDevEnhanceSettings:SupportedAssetClasses [ArrayProperty ToolTip meta-data]
+#: /Script/LookDevEnhance.LookDevEnhanceSettings:SupportedAssetClasses [ArrayProperty ToolTip meta-data]
+msgctxt "UObjectToolTips,LookDevEnhanceSettings:SupportedAssetClasses"
+msgid "允许通过内容浏览器右键菜单在 LookDev 编辑器中打开的资产类（含其子类）"
+msgstr ""
+
+#. Key:	OpenInLookDevEditor
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevContentBrowserExtensions.cpp(77)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevContentBrowserExtensions.cpp(77)
+msgctxt "LookDevEnhance,OpenInLookDevEditor"
+msgid "Open in LookDev Editor"
+msgstr "在 LookDev 编辑器中打开"
+
+#. Key:	OpenInLookDevEditorTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevContentBrowserExtensions.cpp(78)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevContentBrowserExtensions.cpp(78)
+msgctxt "LookDevEnhance,OpenInLookDevEditorTooltip"
+msgid "Opens the selected assets in the LookDev editor, previewed inside the configured LookDev scene."
+msgstr "在 LookDev 编辑器中打开选中资产，并在配置好的 LookDev 场景中预览。"
+
+#. Key:	NoLookDevSceneConfigured
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevContentBrowserExtensions.cpp(93)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevContentBrowserExtensions.cpp(93)
+msgctxt "LookDevEnhance,NoLookDevSceneConfigured"
+msgid "No LookDev scene is configured. Set one in Project Settings -> Engine -> LookDev Enhance."
+msgstr "未配置 LookDev 场景。请在 项目设置 -> 引擎 -> LookDev Enhance 中设置。"
+
+#. Key:	MultiViewAnglesSectionLabel
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(1053)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(1053)
+msgctxt "LookDevEnhance,MultiViewAnglesSectionLabel"
+msgid "View Angles"
+msgstr "视图角度"
+
+#. Key:	MultiViewSpacingSectionLabel
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(1083)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(1083)
+msgctxt "LookDevEnhance,MultiViewSpacingSectionLabel"
+msgid "Spacing"
+msgstr "间距"
+
+#. Key:	MultiViewCopySpacingLabel
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(1094)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(1094)
+msgctxt "LookDevEnhance,MultiViewCopySpacingLabel"
+msgid "Spacing (cm)"
+msgstr "间距 (cm)"
+
+#. Key:	MultiViewCopySpacingTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(1109)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(1109)
+msgctxt "LookDevEnhance,MultiViewCopySpacingTooltip"
+msgid "Distance between adjacent actors' bounding boxes (originals and copies), in centimeters; negative values overlap; changes apply immediately"
+msgstr "相邻资产（原型与副本）包围盒之间的净距离（厘米），负值会互相重叠；修改立即生效"
+
+#. Key:	ScreenshotResolutionSectionLabel
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(1118)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(1118)
+msgctxt "LookDevEnhance,ScreenshotResolutionSectionLabel"
+msgid "Resolution"
+msgstr "分辨率"
+
+#. Key:	ScreenshotWatermarkLabel
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(1153)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(1153)
+msgctxt "LookDevEnhance,ScreenshotWatermarkLabel"
+msgid "Watermark"
+msgstr "水印"
+
+#. Key:	ScreenshotWatermarkTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(1154)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(1154)
+msgctxt "LookDevEnhance,ScreenshotWatermarkTooltip"
+msgid "Overlay the plugin's Resources/LookDevWatermark.png at the bottom-right corner of the screenshot"
+msgstr "把插件 Resources/LookDevWatermark.png 叠加到截图右下角"
+
+#. Key:	DefaultBookmarkName
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(1324)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(1324)
+msgctxt "LookDevEnhance,DefaultBookmarkName"
+msgid "Bookmark"
+msgstr "书签"
+
+#. Key:	ToolkitNameMulti
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(237)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(237)
+msgctxt "LookDevEnhance,ToolkitNameMulti"
+msgid "{0} (+{1} more)"
+msgstr "{0}（+{1} 个）"
+
+#. Key:	ToolkitName
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(242)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(242)
+msgctxt "LookDevEnhance,ToolkitName"
+msgid "LookDev Editor"
+msgstr "LookDev 编辑器"
+
+#. Key:	GenerateMultiViewCopiesLabel
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(377)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(377)
+msgctxt "LookDevEnhance,GenerateMultiViewCopiesLabel"
+msgid "Multi-View Copies"
+msgstr "多视图副本"
+
+#. Key:	GenerateMultiViewCopiesTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(378)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(378)
+msgctxt "LookDevEnhance,GenerateMultiViewCopiesTooltip"
+msgid "Generate a ring of rotated multi-view copies for the selected preview assets (all assets when nothing is selected); uncheck angles in the dropdown to skip them; existing copies are cleared and regenerated, so angle and spacing changes take effect immediately"
+msgstr "为选中的预览资产（未选中时为全部）生成一圈旋转副本；在下拉中取消勾选的角度不会生成；已有副本会被清除并重新生成，角度与间距的修改立即生效"
+
+#. Key:	ClearMultiViewCopiesLabel
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(385)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(385)
+msgctxt "LookDevEnhance,ClearMultiViewCopiesLabel"
+msgid "Clear Copies"
+msgstr "清除副本"
+
+#. Key:	ClearMultiViewCopiesTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(386)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(386)
+msgctxt "LookDevEnhance,ClearMultiViewCopiesTooltip"
+msgid "Remove all multi-view rotation copies"
+msgstr "清除所有多视图旋转副本"
+
+#. Key:	CaptureHighResScreenshotLabel
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(394)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(394)
+msgctxt "LookDevEnhance,CaptureHighResScreenshotLabel"
+msgid "Screenshot"
+msgstr "截图"
+
+#. Key:	CaptureHighResScreenshotTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(395)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(395)
+msgctxt "LookDevEnhance,CaptureHighResScreenshotTooltip"
+msgid "Capture a high-resolution screenshot of the viewport (center-cropped to 16:9); resolution and watermark options are in the dropdown"
+msgstr "对当前视口进行高清截图（按 16:9 居中裁剪）；分辨率与水印选项在下拉菜单中"
+
+#. Key:	OpeningLookDevEditor
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(424)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(424)
+msgctxt "LookDevEnhance,OpeningLookDevEditor"
+msgid "Opening LookDev Editor..."
+msgstr "正在打开 LookDev 编辑器..."
+
+#. Key:	LoadingLookDevScene
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(427)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(427)
+msgctxt "LookDevEnhance,LoadingLookDevScene"
+msgid "Loading LookDev scene..."
+msgstr "正在加载 LookDev 场景..."
+
+#. Key:	CompilingLookDevShaders
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(430)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevAssetToolkit.cpp(430)
+msgctxt "LookDevEnhance,CompilingLookDevShaders"
+msgid "Compiling shaders..."
+msgstr "正在编译着色器..."
+
+#. Key:	RealTimeOverride
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevViewportClient.cpp(24)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/LookDevViewportClient.cpp(24)
+msgctxt "LookDevEnhance,RealTimeOverride"
+msgid "LookDevRealTimeOverride"
+msgstr "LookDev 实时渲染覆盖"
+
+#. Key:	NoBookmarksHint
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(115)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(115)
+msgctxt "LookDevEnhance,NoBookmarksHint"
+msgid "No bookmarks yet. Click New Bookmark to save the current camera pose."
+msgstr "还没有书签。点击「新建书签」保存当前摄像机机位。"
+
+#. Key:	BookmarkThumbnailTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(176)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(176)
+msgctxt "LookDevEnhance,BookmarkThumbnailTooltip"
+msgid "Jump to this bookmark; the thumbnail is refreshed from the new view"
+msgstr "跳转到此书签机位；缩略图会按新画面刷新"
+
+#. Key:	RenameBookmarkTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(204)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(204)
+msgctxt "LookDevEnhance,RenameBookmarkTooltip"
+msgid "Rename this bookmark"
+msgstr "重命名此书签"
+
+#. Key:	DeleteBookmarkTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(221)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(221)
+msgctxt "LookDevEnhance,DeleteBookmarkTooltip"
+msgid "Delete this bookmark"
+msgstr "删除此书签"
+
+#. Key:	NewBookmarkDialogTitle
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(237)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(237)
+msgctxt "LookDevEnhance,NewBookmarkDialogTitle"
+msgid "New Camera Bookmark"
+msgstr "新建摄像机书签"
+
+#. Key:	RenameBookmarkDialogTitle
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(265)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(265)
+msgctxt "LookDevEnhance,RenameBookmarkDialogTitle"
+msgid "Rename Bookmark"
+msgstr "重命名书签"
+
+#. Key:	BookmarkDialogOK
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(343)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(343)
+msgctxt "LookDevEnhance,BookmarkDialogOK"
+msgid "OK"
+msgstr "确定"
+
+#. Key:	BookmarkDialogCancel
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(365)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(365)
+msgctxt "LookDevEnhance,BookmarkDialogCancel"
+msgid "Cancel"
+msgstr "取消"
+
+#. Key:	NewBookmarkButtonLabel
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(38)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(38)
+msgctxt "LookDevEnhance,NewBookmarkButtonLabel"
+msgid "New Bookmark"
+msgstr "新建书签"
+
+#. Key:	NewBookmarkButtonTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(39)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevCameraBookmarkPanel.cpp(39)
+msgctxt "LookDevEnhance,NewBookmarkButtonTooltip"
+msgid "Save the current camera position, rotation and FOV as a new bookmark"
+msgstr "把当前摄像机的位置、旋转和 FOV 保存为新书签"
+
+#. Key:	EnvironmentPanelLabel
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(132)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(132)
+msgctxt "LookDevEnhance,EnvironmentPanelLabel"
+msgid "Environment"
+msgstr "环境详情"
+
+#. Key:	EnvironmentPanelTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(133)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(133)
+msgctxt "LookDevEnhance,EnvironmentPanelTooltip"
+msgid "Show the preview environment actor's editable properties"
+msgstr "显示预览环境 Actor 的可编辑属性"
+
+#. Key:	SelectedActorPanelLabel
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(143)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(143)
+msgctxt "LookDevEnhance,SelectedActorPanelLabel"
+msgid "Selected Actor"
+msgstr "选中 Actor"
+
+#. Key:	SelectedActorPanelTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(144)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(144)
+msgctxt "LookDevEnhance,SelectedActorPanelTooltip"
+msgid "Show the properties of the actor selected in the viewport"
+msgstr "显示视口中选中 Actor 的属性"
+
+#. Key:	OutlinerPanelLabel
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(154)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(154)
+msgctxt "LookDevEnhance,OutlinerPanelLabel"
+msgid "Outliner"
+msgstr "大纲"
+
+#. Key:	OutlinerPanelTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(155)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(155)
+msgctxt "LookDevEnhance,OutlinerPanelTooltip"
+msgid "Show the list of preview actors (useful for actors that are hard to click in the viewport, e.g. effects)"
+msgstr "显示预览 Actor 列表（用于选中视口中难以点选的对象，例如特效）"
+
+#. Key:	BookmarksPanelLabel
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(165)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(165)
+msgctxt "LookDevEnhance,BookmarksPanelLabel"
+msgid "Bookmarks"
+msgstr "书签"
+
+#. Key:	BookmarksPanelTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(166)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(166)
+msgctxt "LookDevEnhance,BookmarksPanelTooltip"
+msgid "Show the camera bookmarks (position, rotation and FOV presets)"
+msgstr "显示摄像机书签（位置、旋转和 FOV 预设）"
+
+#. Key:	CloseDrawerTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(189)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(189)
+msgctxt "LookDevEnhance,CloseDrawerTooltip"
+msgid "Close the details panel"
+msgstr "关闭详情面板"
+
+#. Key:	OpenEnvironmentPanelTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(246)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(246)
+msgctxt "LookDevEnhance,OpenEnvironmentPanelTooltip"
+msgid "Open the preview environment details panel"
+msgstr "打开预览环境详情面板"
+
+#. Key:	OpenSelectedActorPanelTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(256)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(256)
+msgctxt "LookDevEnhance,OpenSelectedActorPanelTooltip"
+msgid "Open the selected actor details panel"
+msgstr "打开选中 Actor 详情面板"
+
+#. Key:	OpenOutlinerPanelTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(266)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(266)
+msgctxt "LookDevEnhance,OpenOutlinerPanelTooltip"
+msgid "Open the preview actor list panel"
+msgstr "打开预览 Actor 列表面板"
+
+#. Key:	OpenBookmarksPanelTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(276)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevDetailsDrawer.cpp(276)
+msgctxt "LookDevEnhance,OpenBookmarksPanelTooltip"
+msgid "Open the camera bookmarks panel"
+msgstr "打开摄像机书签面板"
+
+#. Key:	ViewDefault
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(113)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(113)
+msgctxt "LookDevEnhance,ViewDefault"
+msgid "Default"
+msgstr "默认视角"
+
+#. Key:	ViewDefaultTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(114)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(114)
+msgctxt "LookDevEnhance,ViewDefaultTooltip"
+msgid "Snap the camera back to the default view direction and focus on the preview assets"
+msgstr "将摄像机归位到默认朝向并聚焦预览资产"
+
+#. Key:	ViewCharacterFace
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(130)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(130)
+msgctxt "LookDevEnhance,ViewCharacterFace"
+msgid "Character Face"
+msgstr "角色正脸"
+
+#. Key:	ViewCharacterFaceTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(131)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(131)
+msgctxt "LookDevEnhance,ViewCharacterFaceTooltip"
+msgid "Focus the camera on the head bone of the skeletal mesh (only available when previewing a single skeletal mesh with a head bone)"
+msgstr "聚焦骨骼模型的 head 骨骼（仅在预览单个含 head 骨骼的骨骼模型时可用）"
+
+#. Key:	ViewDirectionEntryTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(160)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(160)
+msgctxt "LookDevEnhance,ViewDirectionEntryTooltip"
+msgid "Snap the camera to the {0} axis and focus on the preview assets"
+msgstr "摄像机归位到 {0} 朝向并聚焦预览资产"
+
+#. Key:	ViewXPos
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(175)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(175)
+msgctxt "LookDevEnhance,ViewXPos"
+msgid "X+"
+msgstr ""
+
+#. Key:	ViewXNeg
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(176)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(176)
+msgctxt "LookDevEnhance,ViewXNeg"
+msgid "X-"
+msgstr ""
+
+#. Key:	ViewYPos
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(177)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(177)
+msgctxt "LookDevEnhance,ViewYPos"
+msgid "Y+"
+msgstr ""
+
+#. Key:	ViewYNeg
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(178)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(178)
+msgctxt "LookDevEnhance,ViewYNeg"
+msgid "Y-"
+msgstr ""
+
+#. Key:	ViewZPos
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(179)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(179)
+msgctxt "LookDevEnhance,ViewZPos"
+msgid "Z+"
+msgstr ""
+
+#. Key:	ViewZNeg
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(180)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(180)
+msgctxt "LookDevEnhance,ViewZNeg"
+msgid "Z-"
+msgstr ""
+
+#. Key:	ViewXPos15
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(183)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(183)
+msgctxt "LookDevEnhance,ViewXPos15"
+msgid "X+15"
+msgstr ""
+
+#. Key:	ViewXNeg15
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(184)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(184)
+msgctxt "LookDevEnhance,ViewXNeg15"
+msgid "X-15"
+msgstr ""
+
+#. Key:	ViewYPos15
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(185)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(185)
+msgctxt "LookDevEnhance,ViewYPos15"
+msgid "Y+15"
+msgstr ""
+
+#. Key:	ViewYNeg15
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(186)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(186)
+msgctxt "LookDevEnhance,ViewYNeg15"
+msgid "Y-15"
+msgstr ""
+
+#. Key:	ViewZPos15
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(187)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(187)
+msgctxt "LookDevEnhance,ViewZPos15"
+msgid "Z+15"
+msgstr ""
+
+#. Key:	ViewZNeg15
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(188)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(188)
+msgctxt "LookDevEnhance,ViewZNeg15"
+msgid "Z-15"
+msgstr ""
+
+#. Key:	ViewDirectionLabel
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(190)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(190)
+msgctxt "LookDevEnhance,ViewDirectionLabel"
+msgid "View Direction"
+msgstr "视图朝向"
+
+#. Key:	ViewDirectionButtonTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(191)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(191)
+msgctxt "LookDevEnhance,ViewDirectionButtonTooltip"
+msgid "Snap the camera to a chosen axis and focus on the preview assets (uses the same focus logic as the F key)"
+msgstr "将摄像机归位到指定轴向并聚焦预览资产（焦点逻辑与 F 键一致）"
+
+#. Key:	ViewModesSubmenuTooltip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(227)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(227)
+msgctxt "LookDevEnhance,ViewModesSubmenuTooltip"
+msgid "View mode settings for the current viewport."
+msgstr "当前视口的视图模式设置。"
+
+#. Key:	VisualizeLumenViewModeDisplayName
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(236)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(236)
+msgctxt "LookDevEnhance,VisualizeLumenViewModeDisplayName"
+msgid "Lumen"
+msgstr ""
+
+#. Key:	LumenVisualizationMenu_ToolTip
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(237)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevEditorViewport.cpp(237)
+msgctxt "LookDevEnhance,LumenVisualizationMenu_ToolTip"
+msgid "Select a mode for Lumen visualization"
+msgstr "选择 Lumen 可视化模式"
+
+#. Key:	OutlinerEmptyText
+#. SourceLocation:	Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevOutlinerPanel.cpp(31)
+#: Plugins/LookDevEnhance/Source/LookDevEnhance/Private/LookDevEditor/SLookDevOutlinerPanel.cpp(31)
+msgctxt "LookDevEnhance,OutlinerEmptyText"
+msgid "No preview actors"
+msgstr "暂无预览 Actor"
+

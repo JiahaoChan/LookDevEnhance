@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "LookDevEnhance",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "TA.Jiahao.Chan",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "LookDevEnhance",
+			"Type": "Editor",
+			"LoadingPhase": "PostDefault"
+		}
+	],
+	"LocalizationTargets": [
+		{
+			"Name": "LookDevEnhance",
+			"LoadingPolicy": "Editor",
+			"ConfigGenerationPolicy": "Never"
+		}
+	]
+}
